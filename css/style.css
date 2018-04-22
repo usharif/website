@@ -77,8 +77,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-main {
-  max-width: 925px;
-  /*max-width: 760px;*/
+  /*max-width: 925px;*/
+  max-width: 760px;
   min-height: 600px;
   margin: 5em auto 5em auto;
   position: relative;
