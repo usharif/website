@@ -11,6 +11,13 @@
 *	Edit this section
 *
 * ======================================================= */
+
+:root {
+  /*#38A9BF*/
+  --tint-color: #1498d1;
+}
+
+
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 300;
@@ -33,13 +40,13 @@ body {
 }
 
 a {
-  color: #17e7a4;
+  color: var(--tint-color);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #17e7a4;
+  color: var(--tint-color);
   outline: none;
 }
 
@@ -56,17 +63,17 @@ h1, h2, h3, h4, h5, h6 {
 
 ::-webkit-selection {
   color: #fff;
-  background: #17e7a4;
+  background: var(--tint-color);
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #17e7a4;
+  background: var(--tint-color);
 }
 
 ::selection {
   color: #fff;
-  background: #17e7a4;
+  background: var(--tint-color);
 }
 
 #fh5co-main {
@@ -159,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   content: "";
   height: 0;
-  background: #17e7a4;
+  background: var(--tint-color);
   z-index: -1;
   top: 0;
   left: 0;
@@ -241,7 +248,7 @@ figure {
 
 .fh5co-counter .fh5co-number {
   font-size: 100px;
-  color: #17e7a4;
+  color: var(--tint-color);
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -311,7 +318,7 @@ figure {
   }
 }
 .fh5co-social li a:hover {
-  color: #17e7a4;
+  color: var(--tint-color);
 }
 .fh5co-social li a:hover, .fh5co-social li a:active, .fh5co-social li a:focus {
   outline: none;
@@ -330,7 +337,7 @@ figure {
   margin-top: 5px;
 }
 .fh5co-feature .fh5co-icon i {
-  color: #17e7a4;
+  color: var(--tint-color);
   font-size: 40px;
 }
 .fh5co-feature .fh5co-text {
